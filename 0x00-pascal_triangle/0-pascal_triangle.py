@@ -13,11 +13,13 @@ def pascal_triangle(n):
         List[List[int]]: A list of lists representing Pascal's triangle.
             Each inner list corresponds to a row in the triangle.
   """
+  
   if n <= 0:
       return []
   triangle = []
   for i in range(n):
       row = []
+
       for j in range(i+1):
           if j == 0 or j == i:
               row.append(1)
