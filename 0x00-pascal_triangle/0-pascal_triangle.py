@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""A script to print pascal triangle of n number"""
 
 
 def pascal_triangle(n):
