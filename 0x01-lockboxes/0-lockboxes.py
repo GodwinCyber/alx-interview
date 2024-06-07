@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Resolve the lockbox"""
 
+
 def canUnlockAll(boxes):
     """Check if all boxes can be opened.
     Args:
@@ -18,4 +19,4 @@ def canUnlockAll(boxes):
             opened[new_keys] = True
             keys.update(boxes[new_keys])
 
-    return all(opened)
+    return (all(opened))
