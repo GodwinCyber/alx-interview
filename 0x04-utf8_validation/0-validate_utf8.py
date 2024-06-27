@@ -14,18 +14,23 @@ def validUTF8(data):
     """
     count = 0
 
-    for num in data:
+    num_1 = 1 << 7
+    num_2 = 1 << 6
+
+    for i in data:
+        num_byte = 1 << 7
+
         if count == 0:
-            if (num >> 5) == 0b110:
-                count = 1
-            elif (num >> 4) == 0b1110:
-                count = 2
-            elif (num >> 3) == 0b11110:
-                count = 3
-            elif (num >> 7):
+            while num_byte & i:
+                count += 1
+                num_byte = count >> 1
+
+            if count == 0:
+                continue
+            if count == 1 or count > 4:
                 return False
         else:
-            if (num >> 6) != 0b10:
+            if not (i & num_1 and not (i & num_2)):
                 return False
-            count -= 1
+        count -= 1
     return count == 0
