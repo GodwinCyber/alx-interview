@@ -12,34 +12,34 @@ def validUTF8(data):
         Each integer represents 1 byte of data, therefore you only need to
         handle the 8 least significant bits of each integer
     """
-    number_bytes = 0
+    count_bytes = 0
 
-    mask_1 = 1 << 7
-    mask_2 = 1 << 6
+    num_UTF8_1 = 1 << 7
+    num_UTF8_2 = 1 << 6
 
-    for i in data:
+    for byte in data:
 
         mask_byte = 1 << 7
 
-        if number_bytes == 0:
+        if count_bytes == 0:
 
-            while mask_byte & i:
-                number_bytes += 1
+            while mask_byte & byte:
+                count_bytes += 1
                 mask_byte = mask_byte >> 1
 
-            if number_bytes == 0:
+            if count_bytes == 0:
                 continue
 
-            if number_bytes == 1 or number_bytes > 4:
+            if count_bytes == 1 or count_bytes > 4:
                 return False
 
         else:
-            if not (i & mask_1 and not (i & mask_2)):
+            if not (byte & num_UTF8_1 and not (byte & num_UTF8_2)):
                 return False
 
-        number_bytes -= 1
+        count_bytes -= 1
 
-    if number_bytes == 0:
+    if count_bytes == 0:
         return True
 
     return False
