@@ -2,8 +2,9 @@
 
 const { exit } = require('process');
 const request = require('request');
-const url = 'https://swapi.dev/api/films/';
+const url = 'https://swapi-api.hbtn.io/api/films/';
 const argument = process.argv[2];
+// the argumnt is for cli, if no argumnet is provided, exit
 
 if (argument === undefined) {
   exit();
