@@ -17,13 +17,20 @@ def makeChange(coins, total):
         denomination of coin in the list
         Your solution’s runtime will be evaluated in this task
     """
-    if total <= 0:
+    if total < 1:
         return 0
 
-    dp = [float('inf')] * (total + 1)
-    dp[0] = 0
+    coins.sort(reverse=True)
+    change = 0
 
     for coin in coins:
-        for amount in range(coin, total + 1):
-            dp[amount] = min(dp[amount], dp[amount - coin] + 1)
-    return dp[total] if dp[total] != float('inf') else -1
+        if total <= 0:
+            break
+        temp = total // coin
+        change += temp
+        total -= temp * coin
+
+    if total != 0:
+        return -1
+
+    return change
