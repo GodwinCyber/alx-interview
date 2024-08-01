@@ -11,7 +11,7 @@
 <h2>Additional Resources</h2>
 
 <ul>
-<li><a href="/rltoken/vKf7Spm4xxFMom3x4Jx52g" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
+<li><a href="https://www.youtube.com/watch?v=1qw5ITr3k9E" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
 </ul>
 
 <h2>Must Know</h2>
