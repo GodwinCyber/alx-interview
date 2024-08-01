@@ -13,37 +13,37 @@ Algorithm Python<br>
 
 <ul>
 <li>Understanding how to work with lists, including accessing elements, iterating over lists, and modifying lists dynamically.</li>
-<li><a href="/rltoken/TtGNy9p1p1d0O5G1rdY1Aw" title="Python Lists (Python Official Documentation)" target="_blank">Python Lists (Python Official Documentation)</a></li>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html" title="Python Lists (Python Official Documentation)" target="_blank">Python Lists (Python Official Documentation)</a></li>
 </ul></li>
 <li><p><strong>Graph Theory Basics</strong>:</p>
 
 <ul>
 <li>Although not explicitly required, knowledge of graph theory (especially concepts related to traversal algorithms like Depth-First Search or Breadth-First Search) can be very helpful in solving this problem, as the boxes and keys can be thought of as nodes and edges in a graph.</li>
-<li><a href="/rltoken/eVcYI8g-6nF0Na46xnRdhw" title="Graph Theory (Khan Academy)" target="_blank">Graph Theory (Khan Academy)</a></li>
+<li><a href="https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs" title="Graph Theory (Khan Academy)" target="_blank">Graph Theory (Khan Academy)</a></li>
 </ul></li>
 <li><p><strong>Algorithmic Complexity</strong>:</p>
 
 <ul>
 <li>Understanding the time and space complexity of your solution is important, as it can help in writing more efficient algorithms.</li>
-<li><a href="/rltoken/01qym1qAJUkLrb47PvqnKg" title="Big O Notation (GeeksforGeeks)" target="_blank">Big O Notation (GeeksforGeeks)</a></li>
+<li><a href="https://www.geeksforgeeks.org/asymptotic-notation-and-analysis-based-on-input-size-of-algorithms/" title="Big O Notation (GeeksforGeeks)" target="_blank">Big O Notation (GeeksforGeeks)</a></li>
 </ul></li>
 <li><p><strong>Recursion</strong>:</p>
 
 <ul>
 <li>Some solutions might require a recursive approach to traverse through the boxes and keys.</li>
-<li><a href="/rltoken/zpEuvv0l9EHohIx-HwiAAA" title="Recursion in Python (Real Python)" target="_blank">Recursion in Python (Real Python)</a></li>
+<li><a href="https://realpython.com/python-recursion/" title="Recursion in Python (Real Python)" target="_blank">Recursion in Python (Real Python)</a></li>
 </ul></li>
 <li><p><strong>Queue and Stack</strong>:</p>
 
 <ul>
 <li>Knowing how to use queues and stacks is crucial if implementing a breadth-first search (BFS) or depth-first search (DFS) algorithm to traverse through the keys and boxes.</li>
-<li><a href="/rltoken/CQLm4RJrdwyo2DAcNCtwIA" title="Python Queue and Stack (GeeksforGeeks)" target="_blank">Python Queue and Stack (GeeksforGeeks)</a></li>
+<li><a href="https://www.geeksforgeeks.org/queue-in-python/" title="Python Queue and Stack (GeeksforGeeks)" target="_blank">Python Queue and Stack (GeeksforGeeks)</a></li>
 </ul></li>
 <li><p><strong>Set Operations</strong>:</p>
 
 <ul>
 <li>Understanding how to use sets for keeping track of visited boxes and available keys can optimize the search process.</li>
-<li><a href="/rltoken/zkmtaPqAbKyxx41kRw7ulA" title="Python Sets (Python Official Documentation)" target="_blank">Python Sets (Python Official Documentation)</a></li>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html#sets" title="Python Sets (Python Official Documentation)" target="_blank">Python Sets (Python Official Documentation)</a></li>
 </ul></li>
 </ol>
 
@@ -52,7 +52,7 @@ Algorithm Python<br>
 <h2>Additional Resources</h2>
 
 <ul>
-<li><a href="/rltoken/TJ0FJhWeEGolIqMpwBn7Pg" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
+<li><a href="https://www.youtube.com/watch?feature=shared&v=V8DGdPkBBxg" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
 </ul>
 
 <h2>Requirements</h2>
