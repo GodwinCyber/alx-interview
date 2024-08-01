@@ -42,22 +42,22 @@
 <li><p><strong>Python Official Documentation</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/8SPalOgoGDWQChVbct0p1g" title="Nested Lists" target="_blank">Nested Lists</a>: Understanding how to work with lists within lists in Python.</li>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html#nested-list-comprehensions" title="Nested Lists" target="_blank">Nested Lists</a>: Understanding how to work with lists within lists in Python.</li>
 </ul></li>
 <li><p><strong>GeeksforGeeks Articles</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/IYcYmeVlCfF-F7Szn1fzfQ" title="Python Multi-dimensional Arrays" target="_blank">Python Multi-dimensional Arrays</a>: A guide to working with 2D arrays in Python effectively.</li>
+<li><a href="https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/" title="Python Multi-dimensional Arrays" target="_blank">Python Multi-dimensional Arrays</a>: A guide to working with 2D arrays in Python effectively.</li>
 </ul></li>
 <li><p><strong>TutorialsPoint</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/TZ8UtQaRxN5cFf8c1TB-rw" title="Python Lists" target="_blank">Python Lists</a>: Explains how to create, access, and manipulate lists in Python, which is essential for working with a grid.</li>
+<li><a href="https://www.tutorialspoint.com/python/python_lists.htm" title="Python Lists" target="_blank">Python Lists</a>: Explains how to create, access, and manipulate lists in Python, which is essential for working with a grid.</li>
 </ul></li>
 <li><p><strong>YouTube Tutorials</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/H7SwlI_XYDpwYonNYKXQfg" title="Python 2D arrays and lists" target="_blank">Python 2D arrays and lists</a></li>
+<li><a href="https://www.youtube.com/watch?v=aNzepGawwCI" title="Python 2D arrays and lists" target="_blank">Python 2D arrays and lists</a></li>
 </ul></li>
 </ul>
 
@@ -66,7 +66,7 @@
 <h2>Additional Resources</h2>
 
 <ul>
-<li><a href="/rltoken/9ZYjQgC9HvOLZiHxmgd89Q" title="Mock Technical Interviews" target="_blank">Mock Technical Interviews</a></li>
+<li><a href="https://www.youtube.com/watch?feature=shared&v=fFgEM6CMQc4" title="Mock Technical Interviews" target="_blank">Mock Technical Interviews</a></li>
 </ul>
 
 <h2>Requirements</h2>
