@@ -44,19 +44,19 @@ Algorithm Python<br>
 <li><p><strong>Python Official Documentation</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/eZc_ELGxUgkuc4kkE_fd7Q" title="Data Structures (list comprehensions, nested list comprehension)" target="_blank">Data Structures (list comprehensions, nested list comprehension)</a></li>
-<li><a href="/rltoken/0ORj179giGhGe8jpcxBkXg" title="More on Lists" target="_blank">More on Lists</a></li>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html" title="Data Structures (list comprehensions, nested list comprehension)" target="_blank">Data Structures (list comprehensions, nested list comprehension)</a></li>
+<li><a href="/https://docs.python.org/3/tutorial/datastructures.html#more-on-lists" title="More on Lists" target="_blank">More on Lists</a></li>
 </ul></li>
 <li><p><strong>GeeksforGeeks Articles</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/9T8w4mtiIIRDtfLSmEmrLA" title="Inplace rotate square matrix by 90 degrees" target="_blank">Inplace rotate square matrix by 90 degrees</a></li>
-<li><a href="/rltoken/JdIFvtej2hMW-Wd9ABHMOA" title="Transpose a matrix in Single line in Python" target="_blank">Transpose a matrix in Single line in Python</a></li>
+<li><a href="https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/" title="Inplace rotate square matrix by 90 degrees" target="_blank">Inplace rotate square matrix by 90 degrees</a></li>
+<li><a href="https://www.geeksforgeeks.org/transpose-matrix-single-line-python/" title="Transpose a matrix in Single line in Python" target="_blank">Transpose a matrix in Single line in Python</a></li>
 </ul></li>
 <li><p><strong>TutorialsPoint</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/rFmzUTpaLGqDXjGA6D9eYw" title="Python Lists" target="_blank">Python Lists</a> for basics of list manipulation in Python.</li>
+<li><a href="https://www.tutorialspoint.com/python/python_lists.htm" title="Python Lists" target="_blank">Python Lists</a> for basics of list manipulation in Python.</li>
 </ul></li>
 </ul>
 
@@ -65,7 +65,7 @@ Algorithm Python<br>
 <h2>Additional Resources</h2>
 
 <ul>
-<li><a href="/rltoken/4GPWA9C2AJHtpdGxuIHEPA" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
+<li><a href="https://www.youtube.com/watch?feature=shared&v=yM9Xbi-MigE" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
 </ul>
 
 <h2>Requirements</h2>
