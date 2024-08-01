@@ -12,25 +12,25 @@ To successfully complete this project, you will need to understand several key c
 
 <ul>
 <li>Understanding how backtracking algorithms work to explore all potential solutions to a problem and backtrack when a solution cannot be completed.</li>
-<li><a href="/rltoken/Gbaz9HkwvR9FX4zjBt9dSw" title="Backtracking Introduction" target="_blank">Backtracking Introduction</a></li>
+<li><a href="https://www.geeksforgeeks.org/introduction-to-backtracking-2/" title="Backtracking Introduction" target="_blank">Backtracking Introduction</a></li>
 </ul></li>
 <li><p><strong>Recursion</strong>:</p>
 
 <ul>
 <li>Using recursive functions to implement backtracking algorithms.</li>
-<li><a href="/rltoken/X1vaNXgy_pPyvKfOJm90XQ" title="Recursion in Python" target="_blank">Recursion in Python</a></li>
+<li><a href="https://realpython.com/python-thinking-recursively/" title="Recursion in Python" target="_blank">Recursion in Python</a></li>
 </ul></li>
 <li><p><strong>List Manipulations in Python</strong>:</p>
 
 <ul>
 <li>Creating and manipulating lists, especially to store the positions of queens on the board.</li>
-<li><a href="/rltoken/P3KbYxmdtSeoJvVfr9Iv0w" title="Python Lists" target="_blank">Python Lists</a></li>
+<li><a href="https://docs.python.org/3/tutorial/datastructures.html" title="Python Lists" target="_blank">Python Lists</a></li>
 </ul></li>
 <li><p><strong>Python Command Line Arguments</strong>:</p>
 
 <ul>
 <li>Handling command-line arguments with the <code>sys</code> module.</li>
-<li><a href="/rltoken/2IF4V6xsY_Nq-xcGDK3Bhw" title="Command Line Arguments in Python" target="_blank">Command Line Arguments in Python</a></li>
+<li><a href="https://docs.python.org/3.3/library/sys.html#sys.argv" title="Command Line Arguments in Python" target="_blank">Command Line Arguments in Python</a></li>
 </ul></li>
 </ol>
 
@@ -40,7 +40,7 @@ This project not only tests programming and problem-solving skills but also offe
 <h2>Additional Resources</h2>
 
 <ul>
-<li><a href="/rltoken/aQ3uJmGVeZa-R6B1jYTjXg" title="Mock Interview" target="_blank">Mock Interview</a></li>
+<li><a href="https://www.youtube.com/watch?v=GneS80iYa7I" title="Mock Interview" target="_blank">Mock Interview</a></li>
 </ul>
 
 <h2>Requirements</h2>
