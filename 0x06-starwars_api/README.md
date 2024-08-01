@@ -11,33 +11,33 @@ Algorithm API JavaScript<br>
 
 <ul>
 <li>Understanding how to make HTTP requests to external services using the <code>request</code> module or alternatives like <code>fetch</code> in Node.js.</li>
-<li><a href="/rltoken/iRse23lnV4gAsD9JJTJMMQ" title="A Complete Guide to Making HTTP Requests in Node.js" target="_blank">A Complete Guide to Making HTTP Requests in Node.js</a></li>
+<li><a href="https://www.memberstack.com/blog/node-http-request" title="A Complete Guide to Making HTTP Requests in Node.js" target="_blank">A Complete Guide to Making HTTP Requests in Node.js</a></li>
 </ul></li>
 <li><p><strong>Working with APIs</strong>:</p>
 
 <ul>
 <li>Understanding the basics of RESTful APIs and how to interact with them.</li>
 <li>Parsing JSON data returned by APIs.</li>
-<li><a href="/rltoken/KyGS_uB68mLaP5irrH8JVA" title="Working with APIs in JavaScript" target="_blank">Working with APIs in JavaScript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction" title="Working with APIs in JavaScript" target="_blank">Working with APIs in JavaScript</a></li>
 </ul></li>
 <li><p><strong>Asynchronous Programming</strong>:</p>
 
 <ul>
 <li>Managing asynchronous operations with callbacks, promises, and async/await syntax.</li>
 <li>Handling API response data asynchronously.</li>
-<li><a href="/rltoken/tdKMGJrRstCkXSReNfRFpQ" title="Asynchronous Programming in JavaScript" target="_blank">Asynchronous Programming in JavaScript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous" title="Asynchronous Programming in JavaScript" target="_blank">Asynchronous Programming in JavaScript</a></li>
 </ul></li>
 <li><p><strong>Command Line Arguments in Node.js</strong>:</p>
 
 <ul>
 <li>Using the <code>process.argv</code> array to access command-line arguments passed to a Node.js script.</li>
-<li><a href="/rltoken/oWBOWJZLF_D9GfOydPz6Kg" title="How to Parse Command Line Arguments in Node.js" target="_blank">How to Parse Command Line Arguments in Node.js</a></li>
+<li><a href="https://tecadmin.net/how-to-parse-command-line-arguments-in-nodejs/" title="How to Parse Command Line Arguments in Node.js" target="_blank">How to Parse Command Line Arguments in Node.js</a></li>
 </ul></li>
 <li><p><strong>Array Manipulation and Iteration</strong>:</p>
 
 <ul>
 <li>Iterating over arrays and manipulating data structures to format and display character names.</li>
-<li><a href="/rltoken/8zdG036OYYvVco_AZTExoA" title="JavaScript Array Methods" target="_blank">JavaScript Array Methods</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" title="JavaScript Array Methods" target="_blank">JavaScript Array Methods</a></li>
 </ul></li>
 </ol>
 
@@ -46,7 +46,7 @@ Algorithm API JavaScript<br>
 <h2>Additional Resources</h2>
 
 <ul>
-<li><a href="/rltoken/du6hlPQm6qi4A7eEursNhQ" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
+<li><a href="https://www.youtube.com/watch?feature=shared&v=bmqZ5AhNr3g" title="Mock Technical Interview" target="_blank">Mock Technical Interview</a></li>
 </ul>
 
 <h2>Requirements</h2>
@@ -75,15 +75,49 @@ $ sudo apt-get install -y nodejs
 
 <h3>Install semi-standard</h3>
 
-<p><a href="/rltoken/WjMvQfBMKBdsNUuHyg55Dw" title="Documentation" target="_blank">Documentation</a></p>
+<p><a href="https://github.com/standard/semistandard" title="Documentation" target="_blank">Documentation</a></p>
 
 <pre><code>$ sudo npm install semistandard --global
 </code></pre>
 
 <h3>Install <code>request</code> module and use it</h3>
 
-<p><a href="/rltoken/BWz2gc45S-nZaxEY6GA6Zw" title="Documentation" target="_blank">Documentation</a></p>
+<p><a href="https://github.com/request/request" title="Documentation" target="_blank">Documentation</a></p>
 
 <pre><code>$ sudo npm install request --global
 $ export NODE_PATH=/usr/lib/node_modules
+</code></pre>
+
+
+<p>Write a script that prints all characters of a Star Wars movie:</p>
+
+<ul>
+<li>The first positional argument passed is the Movie ID - example: <code>3</code> = &ldquo;Return of the Jedi&rdquo; </li>
+<li>Display one character name per line <strong>in the same order as the &ldquo;characters&rdquo; list in the <code>/films/</code> endpoint</strong></li>
+<li>You must use the <a href="https://swapi-api.alx-tools.com/g" title="Star wars API" target="_blank">Star wars API</a></li>
+<li>You must use the <code>request</code> module</li>
+</ul>
+
+<pre><code>alexa@ubuntu:~/0x06$ ./0-starwars_characters.js 3
+Luke Skywalker
+C-3PO
+R2-D2
+Darth Vader
+Leia Organa
+Obi-Wan Kenobi
+Chewbacca
+Han Solo
+Jabba Desilijic Tiure
+Wedge Antilles
+Yoda
+Palpatine
+Boba Fett
+Lando Calrissian
+Ackbar
+Mon Mothma
+Arvel Crynyd
+Wicket Systri Warrick
+Nien Nunb
+Bib Fortuna
+alexa@ubuntu:~/0x06$ 
 </code></pre>
