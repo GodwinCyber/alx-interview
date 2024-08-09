@@ -1,57 +1,47 @@
 #!/usr/bin/python3
-"""Module Interview"""
+""" Prime Game """
 
 
-def sieve_of_eratosthenes(n):
-    """Generate a list of prime numbers up to n
-        using the Sieve of Eratosthenes.
-    """
-    is_prime = [True] * (n + 1)
-    p = 2
-    while p * p <= n:
-        if is_prime[p]:
-            for i in range(p * p, n + 1, p):
-                is_prime[i] = False
-        p += 1
-    return [p for p in range(2, n + 1) if is_prime[p]]
+def is_prime(n):
+    """ Check if n is a prime number """
+    for i in range(2, int(n ** 0.5) + 1):
+        if not n % i:
+            return False
+    return True
+
+
+def add_prime(n, primes):
+    """ Add prime to list """
+    last_prime = primes[-1]
+    if n > last_prime:
+        for i in range(last_prime + 1, n + 1):
+            if is_prime(i):
+                primes.append(i)
+            else:
+                primes.append(0)
 
 
 def isWinner(x, nums):
-    """Determine who the winner is after x rounds."""
-    if not nums or x <= 0:
-        return None
+    """ x is the number of rounds and nums is an array of n
+    Return: name of the player that won the most rounds
+    If the winner cannot be determined, return None """
+    score = {"Maria": 0, "Ben": 0}
+    primes = [0, 0, 2]
+    add_prime(max(nums), primes)
 
-    maria_wins = 0
-    ben_wins = 0
-
-    max_n = max(nums)
-    primes = sieve_of_eratosthenes(max_n)
-
-    for n in nums:
-        # Game simulation for a single round
-        primes_set = set(primes)
-        primes_set = {p for p in primes_set if p <= n}
-        current_player = "Maria"
-
-        while primes_set:
-            # Maria always picks the smallest prime
-            prime_to_remove = min(primes_set)
-            multiples = set(range(prime_to_remove, n + 1, prime_to_remove))
-            primes_set -= multiples  # Remove prime and all its multiples
-
-            if current_player == "Maria":
-                current_player = "Ben"
-            else:
-                current_player = "Maria"
-
-        if current_player == "Maria":
-            ben_wins += 1
+    for round in range(x):
+        _sum = sum((i != 0 and i <= nums[round])
+                   for i in primes[:nums[round] + 1])
+        if (_sum % 2):
+            winner = "Maria"
         else:
-            maria_wins += 1
+            winner = "Ben"
+        if winner:
+            score[winner] += 1
 
-    if maria_wins > ben_wins:
+    if score["Maria"] > score["Ben"]:
         return "Maria"
-    elif ben_wins > maria_wins:
+    elif score["Ben"] > score["Maria"]:
         return "Ben"
-    else:
-        return None
+
+    return None
